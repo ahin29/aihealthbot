@@ -51,7 +51,7 @@ if prompt := st.chat_input("Type your message here..."):
                 response = client.responses.create(
                     prompt={
                         "id": "pmpt_6888f120386c8197beadedbf9ee502b7087d7dc6b89ee036",
-                        "version": "7"
+                        "version": "8"
                     },
                     # Pass the full conversation context
                     input=conversation_context
